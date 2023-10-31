@@ -3,11 +3,11 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- border: 2px solid red;
+ /* border: 2px solid red; */
 }
 html, body {
  height: 100%
- border: 2px solid red;
+ /* border: 2px solid red; */
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -18,14 +18,14 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #FFD972;
     display: flex;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .links{
     width: 600px;
     position: relative;
     background-color: #FFD972;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-evenly;
 
 
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p {
 .links a{
     text-decoration: none;
     color: black;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     align-content: center;
     padding: 20px;
@@ -98,4 +98,15 @@ h1, h2, h3, h4, h5, h6, p {
     height: 72px;
     width: 250px;
     background-image: url('../images/logo.png');
+}
+
+footer{
+    height: 72px;
+    background-color: #FFD972;
+}
+
+.footer-box{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
